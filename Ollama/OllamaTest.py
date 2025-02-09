@@ -4,7 +4,7 @@ from ollama import ChatResponse
 response: ChatResponse = chat(model='llama3.1', messages=[
   {
     'role': 'user',
-    'content': 'Vai tu māki Latviešu Valodu?',
+    'content': 'Uzraksti man esseju par IT speciālistiem Latviski',
   },
 ])
 print(response['message']['content'])
